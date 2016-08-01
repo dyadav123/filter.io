@@ -1,0 +1,3657 @@
+{
+  "version":
+  {
+    "major": 1,
+    "minor": 0
+  },
+  "created_on": "2016/07/22",
+  "client":
+  {
+    "code": "RICH",
+    "name": "The Richards Group",
+    "contact":
+    {
+      "name": "David Lombardi",
+      "email": "dlombardi@fusionseven_com",
+      "phone": "123-456-7890",
+      "address1": "155 Bovet Rd_",
+      "city": "San Mateo",
+      "state": "CA",
+      "zip_code": "94402",
+      "country": "USA"
+    },
+    "margin_percent": 0.0,
+    "margin_tax_percent": 0.0
+  },
+  "partner":
+  [
+    {
+      "code": "SIZM",
+      "name": "Sizmek",
+      "type": "TPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+
+      "alias":
+      [
+        "Sizmek"
+      ],
+
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": ["50455","129907","11149"]
+        },
+        {
+          "name": "Site Name",
+          "value": ["CBS Interactive US", "CNBC.com", "Conversant Media", "Digilant.com", "Financial-Planning.com", "FourSquare.com", "Gamut Media (Formerly Cox Digital Solutions)", "GumGum.com", "Hulu", "Investors.com", "InvestmentNews.com", "RocketFuel.com", "Rubicon.com", "SAY Media US", "Serious Eats", "OnWallStreet.com", "SpecificMEDIA US", "Tapad", "Undertone Inc. US", "Verve", "Vibrant Media US", "Weather.com US (Weather Channel)", "xAd Network", "YuMe", "Zillow"]
+        }
+      ],
+
+      "terms":
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "ad_id",
+            "partner_field": "Ad ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "ad_name",
+            "partner_field": "Ad Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "agency_id",
+            "partner_field": "Agency ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "agency_name",
+            "partner_field": "Agency Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_end_date",
+            "partner_field": "Campaign End Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Campaign ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_start_date",
+            "partner_field": "Campaign Start Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "* Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "click_thru_url",
+            "partner_field": "Clickthrough URL",
+            "type": "String",
+            "value": ""
+          },
+
+          {
+            "fs_field": "conversions",
+            "partner_field": "Total Actions",
+            "type": "Number",
+            "value": ""
+          },
+
+          {
+            "fs_field": "conversion_pixel_id",
+            "partner_field": "Action Value",
+            "type": "String",
+            "value": ""
+          },
+
+          {
+            "fs_field": "conversion_pixel_name",
+            "partner_field": "Action Name",
+            "type": "String",
+            "value": ""
+          },
+
+          {
+            "fs_field": "creative_size",
+            "partner_field": "Unit Size",
+            "type": "String",
+            "value": ""
+          },
+
+          {
+            "fs_field": "creative_type",
+            "partner_field": "Ad Format",
+            "type": "String",
+            "value": ""
+          },
+
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+
+          {
+            "fs_field": "data_impressions",
+            "partner_field": "ImpressionsWithDwell",
+            "type": "Number",
+            "value": ""
+          },
+
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+
+          {
+            "fs_field": "impressions",
+            "partner_field": "* Served Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "interactions",
+            "partner_field": "Interactions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "interaction_time",
+            "partner_field": "AvgDwellTime",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "inventory_source_name",
+            "partner_field": "Section Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "media_cost",
+            "partner_field": "Total Media Cost",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "package_name",
+            "partner_field": "Package Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Placement ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Placement Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "post_click_conversions",
+            "partner_field": "Post Click Conversions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "post_view_conversions",
+            "partner_field": "Post Impressions Conversions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "publisher_id",
+            "partner_field": "Site ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "publisher_name",
+            "partner_field": "Site Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "revenue",
+            "partner_field": "Total Revenue",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "viewable_impressions",
+            "partner_field": "Visible Impressions",
+            "type": "Number",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "CBSI",
+      "name": "CBS Interactive",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "CBS Interactive", "CBS Interactive US"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Total_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Total_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+
+    {
+      "code": "CNBC",
+      "name": "CNBC",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "CNBC", "CNBC.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Campaign_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Ad_server_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Ad_server_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Ad_server_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Placement_ID",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "CONV",
+      "name": "Conversant, Inc.",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Conversant, Inc.", "Conversant Media"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative_Name",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "DIGI",
+      "name": "Digilant (Adnetik)",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Digilant (Adnetik)", "Digilant.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "ADVERTISER",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "CAMPAIGN",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "CLICKS",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "conversions",
+            "partner_field": "CONVERSIONS",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "ENTRY_DATE",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "IMPRESSIONS",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "LineItem ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line Item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "CREATIVE",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "FINC",
+      "name": "Financial Planning",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Financial Planning", "Financial-Planning.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Total_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Total_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "FOUR",
+      "name": "Foursquare",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Foursquare", "FourSquare.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Campaign_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Foursquare_Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Day",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Foursquare_Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "LineItem_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "LineItem_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_Key",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative_Name",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "GAMU",
+      "name": "Gamut",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "gamut", "Gamut Media (Formerly Cox Digital Solutions)"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Placement_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Placement_Name",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "GUMG",
+      "name": "GumGum",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "GumGum", "GumGum.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_Id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Campaign_Id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Day",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Ad_Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Package_Id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Package",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "HULU",
+      "name": "Hulu",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Hulu"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "cpm",
+            "partner_field": "CPM",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "creative_type",
+            "partner_field": "Product_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Click_Thru_Rate",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "video_average_view_time",
+            "partner_field": "Time_Spent_Viewing",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "video_plays",
+            "partner_field": "Starts",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "video_view_rate",
+            "partner_field": "Video_Completion_Rate",
+            "type": "Double",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "IBDI",
+      "name": "Investor's Business Daily/Investors.com",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Investor's Business Daily/Investors.com", "Investors.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Ad_server_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Ad_server_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Ad_server_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "INNO",
+      "name": "Investment News",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Investment News", "InvestmentNews.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Imps",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "ROCK",
+      "name": "Rocket Fuel",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Rocket Fuel", "RocketFuel.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "CID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "conversions",
+            "partner_field": "Convs",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "cpa",
+            "partner_field": "CPA",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Imps",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_Item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "media_cost",
+            "partner_field": "Spend",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Advertisement_Id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Advertisement",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "revenue",
+            "partner_field": "Client_Rev",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "roi",
+            "partner_field": "ROAS",
+            "type": "Double",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "RUBI",
+      "name": "Rubicon",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Rubicon", "Rubicon.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "account",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "account_name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "campaign",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "campaign_name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "conversions",
+            "partner_field": "conversions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "day",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "ad_template",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "ad_template_title",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "SAYM",
+      "name": "Say Media",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Say Media", "SAY Media US"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Total_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Total_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Total_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "SEAL",
+      "name": "Serious Eats",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Serious Eats"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Ad_server_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Ad_server_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Ad_server_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "SOUR",
+      "name": "SourceMedia",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "SourceMedia", "OnWallStreet.com"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Total_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "creative_size",
+            "partner_field": "Creative_size",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Total_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Total_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "SPEC",
+      "name": "Specific Media",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Specific Media", "SpecificMEDIA US"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Group_By",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Tracked_Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Report_By",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Tracked_Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Additional_Group_By",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "TAPD",
+      "name": "Tapad",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Tapad"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "advertiser_id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "campaign_id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date_by_Day",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "line_item_id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line Item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "creative_id",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "UNTO",
+      "name": "Undertone Networks",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Undertone Networks", "Undertone Inc. US"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID ",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Campaign_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Undertone_Line_Item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "3P_Creative_ID",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "VERV",
+      "name": "Verve",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Verve"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "IO_Contract_Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "ADM_Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "ADM_Order_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "DFP_Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "creative_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "creative_name",
+            "partner_field": "Creative_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "DFP_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "DFP_Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "io_end_date",
+            "partner_field": "IO_Line_Item_End_Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "io_start_date",
+            "partner_field": "IO_Line_Item_Start_Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "IO_Line_Item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "IO_Line_Item_Name",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "VIBR",
+      "name": "Vibrant Media",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Vibrant Media", "Vibrant Media US"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "IONo",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Ad_View_CTR_%",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date:Day",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "AdViews",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "IONo",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Campaign",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "WEAT",
+      "name": "Weather.com",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Weather.com", "Weather.com US (Weather Channel)"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Total_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "cpm_fee",
+            "partner_field": "Rate__",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Total_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Total_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "WSJO",
+      "name": "Wall Street Journal Online",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Wall Street Journal Online", "Market Watch"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Ad_server_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "creative_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "creative_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Ad_server_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Ad_server_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "XADP",
+      "name": "xAd, Inc.",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "xAd, Inc.", "xAd Network"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Campaign_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "AdGroup_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Adgroup_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "media_cost",
+            "partner_field": "Ad_Spend",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative_Name",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "YAHO",
+      "name": "Yahoo!",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Yahoo!"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Campaign_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "conversions",
+            "partner_field": "Conversions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Day",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Ad_Name",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "YUME",
+      "name": "YuMe",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "YuMe"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Campaign_Name",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Impressions_video_start",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Advertisement_Name",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "code": "ZILL",
+      "name": "Zillow",
+      "type": "FPAS",
+      "country_code": "US",
+      "created_on": "2016-07-25",
+      "alias":
+      [
+        "Zillow"
+      ],
+      "contact":
+      {
+        "name": "David Lombardi",
+        "email": "dlombardi@fusionseven.com",
+        "phone": "123-456-7890",
+        "address1": "155 Bovet Rd.1",
+        "city": "San Mateo",
+        "state": "CA",
+        "zip_code": "94402",
+        "country": "USA"
+      },
+      "filter":
+      [
+        {
+          "name": "advertiser_id",
+          "value": [""]
+        }
+      ],
+      "terms":
+
+      [
+        {
+          "channel_type": "Online",
+          "schedule":
+          [
+
+            {
+              "start_date": "2016/01/01",
+              "end_date": "2016/12/31",
+              "technology_fee": 0.00,
+              "technology_fee_tax": 0.00,
+              "handling_fee": 0.00,
+              "handling_fee_tax": 0.00,
+              "support_fee": 0.00,
+              "support_fee_tax": 0.00,
+              "ad_server_fee": 0.00,
+              "ad_server_fee_tax": 0.00,
+              "cdn_fee": 0.00,
+              "cdn_fee_tax": 0.00
+            }
+          ]
+        }
+      ],
+      "mapping":
+      {
+        "fields":
+        [
+          {
+            "fs_field": "advertiser_id",
+            "partner_field": "Advertiser_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "advertiser_name",
+            "partner_field": "Advertiser",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_id",
+            "partner_field": "Order_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "campaign_name",
+            "partner_field": "Order",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "clicks",
+            "partner_field": "Total_clicks",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "ctr",
+            "partner_field": "Total_CTR",
+            "type": "Double",
+            "value": ""
+          },
+          {
+            "fs_field": "currency_code",
+            "partner_field": "",
+            "type": "String",
+            "value": "USD"
+          },
+          {
+            "fs_field": "event_datetime",
+            "partner_field": "Date",
+            "type": "Date",
+            "value": ""
+          },
+          {
+            "fs_field": "impressions",
+            "partner_field": "Total_impressions",
+            "type": "Number",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_id",
+            "partner_field": "Line_item_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "line_item_name",
+            "partner_field": "Line_item",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_id",
+            "partner_field": "Creative_ID",
+            "type": "String",
+            "value": ""
+          },
+          {
+            "fs_field": "placement_name",
+            "partner_field": "Creative",
+            "type": "String",
+            "value": ""
+          }
+        ]
+      }
+    }
+  ]
+}

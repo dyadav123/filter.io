@@ -1,0 +1,774 @@
+{
+  "minVer": "0",
+  "majVer": "1",
+  "client": "RICH",
+  "partner_code": "SPEC",
+  "partner_type": "FPA",
+  "_id": "579f0b886fb8fb3237b06727",
+  "reference": [],
+  "rows": [
+    {
+      "_id": "579f0b886fb8fb3237b06728",
+      "rowKey": "1",
+      "rowData": [
+        {
+          "_id": "579f0b886fb8fb3237b06729",
+          "partnerField": "country_code",
+          "value": "US",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0672a",
+          "partnerField": "partner_type",
+          "value": "FPA",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0672b",
+          "partnerField": "partner_code",
+          "value": "SPEC",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0672c",
+          "partnerField": "partner_name",
+          "value": "Specific Media",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0672d",
+          "partnerField": "insertion_order_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0672e",
+          "partnerField": "insertion_order_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0672f",
+          "partnerField": "campaign_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06730",
+          "partnerField": "campaign_name",
+          "value": "Chick-Fil-A_Atlanta_Catering/Nuggets-2.15-3.13",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06731",
+          "partnerField": "ad_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06732",
+          "partnerField": "ad_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06733",
+          "partnerField": "advertiser_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06734",
+          "partnerField": "advertiser_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06735",
+          "partnerField": "dsp_code",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06736",
+          "partnerField": "dsp_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06737",
+          "partnerField": "line_item_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06738",
+          "partnerField": "line_item_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06739",
+          "partnerField": "line_item_type",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0673a",
+          "partnerField": "creative_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0673b",
+          "partnerField": "creative_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0673c",
+          "partnerField": "creative_size",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0673d",
+          "partnerField": "creative_type",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0673e",
+          "partnerField": "cm_placement_id",
+          "value": "\"16635750, 16635749\"",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0673f",
+          "partnerField": "placement_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06740",
+          "partnerField": "placement_name",
+          "value": "15s - Chick-Fil-A - Atlanta -  Mobile ",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06741",
+          "partnerField": "inventory_source_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06742",
+          "partnerField": "inventory_source_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06743",
+          "partnerField": "inventory_source_type",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06744",
+          "partnerField": "ssp_code",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06745",
+          "partnerField": "ssp_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06746",
+          "partnerField": "publisher_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06747",
+          "partnerField": "publisher_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06748",
+          "partnerField": "conversion_pixel_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06749",
+          "partnerField": "conversion_pixel_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0674a",
+          "partnerField": "package_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0674b",
+          "partnerField": "package_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0674c",
+          "partnerField": "exchange_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0674d",
+          "partnerField": "exchange_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0674e",
+          "partnerField": "industry_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0674f",
+          "partnerField": "industry_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06750",
+          "partnerField": "sub_industry_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06751",
+          "partnerField": "market",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06752",
+          "partnerField": "pricing_model",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06753",
+          "partnerField": "channel_type",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06754",
+          "partnerField": "device_type",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06755",
+          "partnerField": "browser",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06756",
+          "partnerField": "operating_system",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06757",
+          "partnerField": "carrier",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06758",
+          "partnerField": "tracking_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06759",
+          "partnerField": "tracking_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0675a",
+          "partnerField": "data_type",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0675b",
+          "partnerField": "data_unique_identifier",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0675c",
+          "partnerField": "data_provider_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0675d",
+          "partnerField": "data_provider_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0675e",
+          "partnerField": "click_thru_url",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0675f",
+          "partnerField": "city",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06760",
+          "partnerField": "region",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06761",
+          "partnerField": "dma",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06762",
+          "partnerField": "country",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06763",
+          "partnerField": "zip_code",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06764",
+          "partnerField": "currency",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06765",
+          "partnerField": "event_datetime",
+          "value": "2/17/2016",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06766",
+          "partnerField": "impression_datetime",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06767",
+          "partnerField": "conversion_datetime",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06768",
+          "partnerField": "premium",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06769",
+          "partnerField": "ad_position",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0676a",
+          "partnerField": "impressions",
+          "value": "11",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0676b",
+          "partnerField": "billable_impressions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0676c",
+          "partnerField": "data_impressions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0676d",
+          "partnerField": "viewable_impressions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0676e",
+          "partnerField": "measurable_impressions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0676f",
+          "partnerField": "clicks",
+          "value": "8",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06770",
+          "partnerField": "conversions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06771",
+          "partnerField": "interactions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06772",
+          "partnerField": "interaction_time",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06773",
+          "partnerField": "post_click_conversions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06774",
+          "partnerField": "post_view_conversions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06775",
+          "partnerField": "media_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06776",
+          "partnerField": "media_cost_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06777",
+          "partnerField": "cpm_fee",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06778",
+          "partnerField": "data_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06779",
+          "partnerField": "data_cost_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0677a",
+          "partnerField": "ad_serving_fee",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0677b",
+          "partnerField": "ad_serving_fee_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0677c",
+          "partnerField": "cdn_fee",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0677d",
+          "partnerField": "cdn_fee_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0677e",
+          "partnerField": "platform_fee_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0677f",
+          "partnerField": "platform_fee",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06780",
+          "partnerField": "agency_fee",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06781",
+          "partnerField": "agency_fee_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06782",
+          "partnerField": "total_media_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06783",
+          "partnerField": "total_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06784",
+          "partnerField": "revenue",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06785",
+          "partnerField": "revenue_ecpm",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06786",
+          "partnerField": "profit",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06787",
+          "partnerField": "profit_margin",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06788",
+          "partnerField": "cpm",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06789",
+          "partnerField": "cpa",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0678a",
+          "partnerField": "cpc",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0678b",
+          "partnerField": "ecpm",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0678c",
+          "partnerField": "ecpa",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0678d",
+          "partnerField": "ecpc",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0678e",
+          "partnerField": "ctr",
+          "value": "72.72727273",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0678f",
+          "partnerField": "cpm_rate",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06790",
+          "partnerField": "cpcv",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06791",
+          "partnerField": "roi",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06792",
+          "partnerField": "viewability_impressions_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06793",
+          "partnerField": "viewability_impressions_cost_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06794",
+          "partnerField": "rich_media_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06795",
+          "partnerField": "rich_media_cost_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06796",
+          "partnerField": "dynamic_creative_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06797",
+          "partnerField": "dynamic_creative_cost_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06798",
+          "partnerField": "verification_cost",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b06799",
+          "partnerField": "verification_cost_tax",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0679a",
+          "partnerField": "video_view_rate",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0679b",
+          "partnerField": "video_average_view_time",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0679c",
+          "partnerField": "video_completions",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0679d",
+          "partnerField": "video_plays",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0679e",
+          "partnerField": "video_quartile_view_0",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b0679f",
+          "partnerField": "video_quartile_view_25",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b067a0",
+          "partnerField": "video_quartile_view_50",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b067a1",
+          "partnerField": "video_quartile_view_75",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b067a2",
+          "partnerField": "video_quartile_view_100",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b067a3",
+          "partnerField": "agency_id",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b067a4",
+          "partnerField": "agency_name",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b067a5",
+          "partnerField": "campaign_start_date",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "_id": "579f0b886fb8fb3237b067a6",
+          "partnerField": "campaign_end_date",
+          "value": "",
+          "type": "String"
+        }
+      ]
+    }
+  ],
+  "createdOn": "2016-08-01T08:42:48.484Z"
+}

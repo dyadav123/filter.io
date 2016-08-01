@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'inference' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /home/j2/git-sourceCode/cleaning.io.master/package.json
+5 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/apache-spark-node/package.json
+6 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/body-parser/package.json
+7 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/config/package.json
+8 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/cookie/package.json
+9 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/cookie-parser/package.json
+10 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/cross-unzip/package.json
+11 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/cross-zip/package.json
+12 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/csv-streamify/package.json
+13 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/db/package.json
+14 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/debug/package.json
+15 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/decompress/package.json
+16 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/dotenv/package.json
+17 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/eclairjs/package.json
+18 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/enum/package.json
+19 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/express/package.json
+20 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/express-jwt/package.json
+21 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/fast-csv/package.json
+22 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/ftp/package.json
+23 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/hashmap/package.json
+24 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/jade/package.json
+25 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/java/package.json
+26 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/jsdoc/package.json
+27 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/jsftp/package.json
+28 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/jsonwebtoken/package.json
+29 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/kafka-node/package.json
+30 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/levenshtein/package.json
+31 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/line-by-line/package.json
+32 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/line-reader/package.json
+33 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/mongodb/package.json
+34 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/mongoose/package.json
+35 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/morgan/package.json
+36 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/mysql/package.json
+37 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/node-datetime/package.json
+38 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/node-rest-client/package.json
+39 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/passport/package.json
+40 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/passport-local/package.json
+41 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/redis/package.json
+42 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/regex/package.json
+43 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/request/package.json
+44 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/serve-favicon/package.json
+45 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/sorted-array/package.json
+46 verbose installManyTop reading scoped package data from /home/j2/git-sourceCode/cleaning.io.master/node_modules/uglify-js/package.json
+47 info package.json cross-unzip@0.0.2 No repository field.
+48 info package.json cross-unzip@0.0.2 license should be a valid SPDX license expression
+49 info package.json debug@2.0.0 No license field.
+50 info package.json db@1.0.6 license should be a valid SPDX license expression
+51 info package.json express-jwt@3.4.0 No license field.
+52 info package.json ftp@0.3.10 No license field.
+53 info package.json jsftp@1.5.3 No license field.
+54 info package.json line-by-line@0.1.4 No license field.
+55 info package.json passport-local@1.0.0 No license field.
+56 info package.json regex@0.1.1 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+57 info package.json regex@0.1.1 No license field.
+58 info package.json levenshtein@1.0.5 license should be a valid SPDX license expression
+59 info package.json enum@2.3.0 No license field.
+60 info package.json sorted-array@2.0.1 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+61 info package.json sorted-array@2.0.1 No license field.
+62 verbose readDependencies loading dependencies from /home/j2/git-sourceCode/cleaning.io.master/package.json
+63 silly cache add args [ 'inference', null ]
+64 verbose cache add spec inference
+65 silly cache add parsed spec Result {
+65 silly cache add   raw: 'inference',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'inference',
+65 silly cache add   rawSpec: '',
+65 silly cache add   spec: 'latest',
+65 silly cache add   type: 'tag' }
+66 silly addNamed inference@latest
+67 verbose addNamed "latest" is being treated as a dist-tag for inference
+68 info addNameTag [ 'inference', 'latest' ]
+69 silly mapToRegistry name inference
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'inference',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   name: 'inference',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/inference
+74 verbose addNameTag registry:https://registry.npmjs.org/inference not in flight; fetching
+75 verbose request uri https://registry.npmjs.org/inference
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 11:39:42 PM
+78 verbose request id e26b19606c11b536
+79 http request GET https://registry.npmjs.org/inference
+80 http 404 https://registry.npmjs.org/inference
+81 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+81 verbose headers   etag: '"9PT4UHONFXNTZBSW2GGTI9TNH"',
+81 verbose headers   'content-type': 'application/json',
+81 verbose headers   'cache-control': 'max-age=0',
+81 verbose headers   'content-length': '397',
+81 verbose headers   'accept-ranges': 'bytes',
+81 verbose headers   date: 'Wed, 27 Jul 2016 06:39:43 GMT',
+81 verbose headers   via: '1.1 varnish',
+81 verbose headers   age: '0',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+81 verbose headers   'x-cache': 'MISS',
+81 verbose headers   'x-cache-hits': '0',
+81 verbose headers   'x-timer': 'S1469601582.844273,VS0,VE344',
+81 verbose headers   vary: 'Accept-Encoding' }
+82 silly get cb [ 404,
+82 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+82 silly get     etag: '"9PT4UHONFXNTZBSW2GGTI9TNH"',
+82 silly get     'content-type': 'application/json',
+82 silly get     'cache-control': 'max-age=0',
+82 silly get     'content-length': '397',
+82 silly get     'accept-ranges': 'bytes',
+82 silly get     date: 'Wed, 27 Jul 2016 06:39:43 GMT',
+82 silly get     via: '1.1 varnish',
+82 silly get     age: '0',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-served-by': 'cache-sjc3134-SJC',
+82 silly get     'x-cache': 'MISS',
+82 silly get     'x-cache-hits': '0',
+82 silly get     'x-timer': 'S1469601582.844273,VS0,VE344',
+82 silly get     vary: 'Accept-Encoding' } ]
+83 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/inference
+83 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+83 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+83 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+83 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:200:22)
+83 verbose stack     at emitTwo (events.js:87:13)
+83 verbose stack     at Request.emit (events.js:172:7)
+83 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+83 verbose stack     at emitOne (events.js:82:20)
+83 verbose stack     at Request.emit (events.js:169:7)
+83 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:988:12)
+84 verbose statusCode 404
+85 verbose pkgid inference
+86 verbose cwd /home/j2/git-sourceCode/cleaning.io.master
+87 error Linux 4.2.0-41-generic
+88 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "inference"
+89 error node v4.4.7
+90 error npm  v2.15.8
+91 error code E404
+92 error 404 Registry returned 404 for GET on https://registry.npmjs.org/inference
+92 error 404
+92 error 404 'inference' is not in the npm registry.
+92 error 404 You should bug the author to publish it (or use the name yourself!)
+92 error 404 It was specified as a dependency of 'inference.io'
+92 error 404
+92 error 404 Note that you can also install from a
+92 error 404 tarball, folder, http url, or git url.
+93 verbose exit [ 1, true ]
